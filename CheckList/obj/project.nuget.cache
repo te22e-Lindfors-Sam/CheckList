@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kIlTjsWgYxA8983D+QAbKn8jnYzgaUCmje6UrjutSNlPrlobTWfWkjlm4aM4GX/OrVXBECVcQ50FXsmZFUFpkQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sam.lindfors\\Desktop\\Programering\\CheckList\\CheckList\\CheckList.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sam.lindfors\\.nuget\\packages\\raylib-cs\\5.0.0\\raylib-cs.5.0.0.nupkg.sha512",
+    "C:\\Users\\sam.lindfors\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

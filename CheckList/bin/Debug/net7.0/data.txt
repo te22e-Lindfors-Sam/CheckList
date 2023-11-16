@@ -1,0 +1,8 @@
+{
+  "graphicsSettings": {
+    "mainColor": {},
+    "subColor": {},
+    "textColor": {}
+  },
+  "tasks": []
+}
