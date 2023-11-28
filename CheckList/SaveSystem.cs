@@ -6,12 +6,10 @@ using System.Text.Json.Serialization;
 public class SaveSystem
 {
     public static string fileName = "data.txt";
-    public Graphics graphicsSettings { get; set; }
     public List<Task> tasks { get; set; }
 
     public SaveSystem()
     {
-        graphicsSettings = new Graphics(Color.BLACK, Color.GRAY, Color.WHITE);
         tasks = new List<Task>();
     }
 
