@@ -1,15 +1,14 @@
 using System.Security.AccessControl;
+using System.Security.Cryptography.X509Certificates;
 using Raylib_cs;
 
 public class Task
 {
     public static List<Task> tasks;
-    public static int selectedTask;
+
     public string taskName { get; set; }
     public string taskBody { get; set; }
     public DateTime timeToBeDone { get; set; }
-
-    public bool selected = false;
     public Task(string taskName, string taskBody, DateTime timeToBeDone)
     {
         this.taskName = taskName;
@@ -17,19 +16,20 @@ public class Task
         this.timeToBeDone = timeToBeDone;
     }
 
-    public static void renderTasks()
+    public static void WriteOutAllTasks()
     {
-        List<Section> taskButtons = new List<Section>();
         for (int i = 0; i < tasks.Count; i++)
         {
-            taskButtons.Add(new Section(30, 90 + i * 60, 230, 50, State.Button, Color.BROWN));
-            if (tasks[i].selected)
-            {
-                Raylib.DrawText(tasks[i].taskName, 350, 20, 50, Color.BLACK);
-            }
+            Console.WriteLine(tasks[i].taskName);
         }
-        Section.renderButtons(taskButtons);
-        Section.checkMouseOverSection(taskButtons);
+    }
+
+
+    public static void WriteTask(Task task)
+    {
+        Console.WriteLine(task.taskName + ":");
+        Console.WriteLine("     " + task.taskBody);
+        Console.WriteLine("     " + task.timeToBeDone);
     }
 
 }
