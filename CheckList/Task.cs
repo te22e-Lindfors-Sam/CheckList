@@ -1,18 +1,15 @@
-using System.Security.AccessControl;
-using System.Security.Cryptography.X509Certificates;
-using Raylib_cs;
-
 public class Task
 {
     public static List<Task> tasks;
-
     public string taskName;
     public string taskBody;
     public Task() { }
 
+
     public static Task AddTask()
     {
         Task task = new Task();
+        //taking in the lenght of the name of the task making sure its is long enought
         while (true)
         {
             Console.WriteLine("What is the title of the task");
@@ -31,6 +28,7 @@ public class Task
                 break;
             }
         }
+        //Makes the user be able to make whatever body they want
         Console.WriteLine("What is the body of the task");
         task.taskBody = Console.ReadLine() ?? "";
         
@@ -42,6 +40,7 @@ public class Task
 
     }
 
+    //Writes out all tasks
     public static void WriteOutAllTasks()
     {
         for (int i = 0; i < tasks.Count; i++)
@@ -49,6 +48,7 @@ public class Task
             Console.WriteLine((i+1).ToString() + ": " + tasks[i].taskName);
         }
     }
+    //Writes out an individual task
     public static void WriteTask(Task task)
     {
         Console.WriteLine(task.taskName + ":");
