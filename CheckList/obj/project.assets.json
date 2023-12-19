@@ -133,11 +133,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\sam.lindfors\\Desktop\\Programering\\CheckList\\CheckList\\CheckList.csproj",
+      "projectUniqueName": "C:\\Users\\sam.lindfors\\Desktop\\Programering\\CheckList\\CheckList\\CheckList.csproj",
       "projectName": "CheckList",
-      "projectPath": "c:\\Users\\sam.lindfors\\Desktop\\Programering\\CheckList\\CheckList\\CheckList.csproj",
+      "projectPath": "C:\\Users\\sam.lindfors\\Desktop\\Programering\\CheckList\\CheckList\\CheckList.csproj",
       "packagesPath": "C:\\Users\\sam.lindfors\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\sam.lindfors\\Desktop\\Programering\\CheckList\\CheckList\\obj\\",
+      "outputPath": "C:\\Users\\sam.lindfors\\Desktop\\Programering\\CheckList\\CheckList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sam.lindfors\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -185,7 +185,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
