@@ -6,13 +6,8 @@ public class Task
 {
     public static List<Task> tasks;
 
-    public string taskName { get; set; }
-    public string taskBody { get; set; }
-    public Task(string taskName, string taskBody)
-    {
-        this.taskName = taskName;
-        this.taskBody = taskBody;
-    }
+    public string taskName;
+    public string taskBody;
     public Task() { }
 
     public static Task AddTask()
