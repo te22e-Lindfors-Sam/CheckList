@@ -1,6 +1,6 @@
 public class Task
 {
-    public static List<Task> tasks;
+    //Valde lista för att då kan dynamsikt ta bort eller lägga till ny Tasks
     public string taskName;
     public string taskBody;
     public Task() { }
@@ -37,11 +37,10 @@ public class Task
         Console.Clear();
 
         return task;
-
     }
 
     //Writes out all tasks
-    public static void WriteOutAllTasks()
+    public static void WriteOutAllTasks(List<Task> tasks)
     {
         for (int i = 0; i < tasks.Count; i++)
         {

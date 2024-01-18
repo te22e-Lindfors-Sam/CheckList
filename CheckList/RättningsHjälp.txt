@@ -1,0 +1,107 @@
+Pseudokoden/diagrammet gjort självständigt ✅
+     https://docs.google.com/document/d/1QdqDByJaXbZldAUCMmWD8_oqRVGEmZwb5I3u9tIeC60/edit
+
+Flera variabler, olika datatyp ✅
+Variablerna används i lösning ✅
+    String initialiserar på linje 13 i Program.cs och används vid linje 14 som exempel
+    int initialiserars vid linje 28 i Program.cs och används vid linje 32
+
+En if-sats ✅
+    Linje 14 Program.cs
+
+En loop ✅
+    Linje 4 i program.cs, även en mer avancerad loop vid linje 46 Task.cs
+
+En metod ✅
+    Task.cs linje 9, AddTask()
+
+En array eller lista ✅
+    En statiskt lista vid linje 3 i Task.cs
+
+En enkel algoritm ✅
+    Methoden AddTask() som finns vid linje 9 i Task.cs
+
+Minst en typkonvertering ✅
+    Program.cs Linje 29
+
+Variabler i rätt scope ✅
+    Linje 13 och 28 som exempel
+
+Flera if-satser med else ✅
+    Fortsätter ifrpn linje 14 neråt med felera if och else satser
+
+Flera loopar ✅
+    En while-loop på linje 14 Program.cs, En For loop vid linje 46 Task.cs
+
+En metod som returnerar resultat eller tar emot parametrar ✅
+    Linje 10 Task.cs tar ger ut en variabel och linje 52 Task.cs tar emot en variabel
+
+En komplex algoritm ??
+    Oklart, om det är en method som kallar en method så kan man argumentera att 44 i Task.cs gör det
+
+Använder flera olika sorters loopar (while, for) ✅
+    En while-loop på linje 14 Program.cs, En For loop vid linje 46 Task.cs
+
+En metod som returnerar resultat och tar emot flera parametrar ✅
+    På linje 97 i program.cs finns det en som gör det(den är hemlig)
+
+Motiverar valet av array eller lista i kommentar ✅
+    Gjort i Program.cs
+
+Flera komplexa algoritmer ✅
+    Linje 97 program.cs kallar och utför den en komplex algoritm och på linje 44 i Task.cs
+
+Minst en metod är generell och återanvändbar ✅
+    Alla methoder är det
+
+Namn på samma språk ✅
+    Gjort 
+
+Några namn följer C# standard ✅
+    Alla namn gör det
+
+Alla namn tydliga ✅
+    Japp 
+Alla namn följer C# standard ✅
+    Självklart
+
+1–2 metoder som ger koden struktur ✅
+    Utan methoder skulle ingen funka 
+
+Metoder skapar tydlig, god struktur ✅
+    Oargumenterbart sant
+
+Varje metod gör exakt ett jobb ✅
+    Otroligt Sant
+
+Väldigt lite logik direkt i Program.cs / Main ✅
+    Bara input systemet och Paladonarmic
+
+Enstaka, korrekta, kommentarer ✅
+All kod är förklarad ✅
+Övergripande kommentarer som förklarar sammanhang/syfte ✅
+    Ja 
+
+Användaren får instruktioner ✅
+Varje steg förklaras ✅
+Användaren informeras om vad hen gjort fel minst 1 gång ✅
+Det är alltid tydligt vad man ska göra & vad man gör fel ✅
+
+Är enkelt och kraschar inte vid fel input ✅
+Har komplex algoritm och kraschar inte ✅
+Metoder ändrar inte på statiska variablers värde ✅
+Har flera komplexa algoritmer och kraschar inte ✅
+Metoder läser inte statiska variablers värde ✅
+
+
+
+
+
+
+
+
+
+
+
+
+
